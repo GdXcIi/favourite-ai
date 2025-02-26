@@ -101,6 +101,5 @@ elif page == "Autres":
 st.markdown("""
     <footer class='footer'>
         <p>&copy; 2025 Guillaume DUPUIS</p>
-        <a href='https://github.com/GdXcIi/favourite-ai'><img class='github' src='IMG_1658.png' alt='Dépôt GitHub'></a>
     </footer>
 """, unsafe_allow_html=True)
