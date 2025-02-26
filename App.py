@@ -18,7 +18,7 @@ st.markdown("""
 
 # --- Logo ---
 st.image("Logo.png", width=150)
-st.sidebar.image("Logo.png", width=150)
+st.sidebar.image("Logo.png", width=50)
 st.markdown("""
     <link rel="icon" href="logo.png" type="image/x-icon">
 """, unsafe_allow_html=True)
