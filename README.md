@@ -9,4 +9,4 @@ Pour le déployer, j'ai choisi d'utiliser streamlit community cloud car j'ai uti
 Et au passage :
 ---
 - ✅ 81 lignes de codes
-- ✅ Interface merveilleuse : vous pouvez aller y jeter un coup d'oeuil [ici](favourite-ai.streamlit.app)
+- ✅ Interface merveilleuse : vous pouvez aller y jeter un coup d'oeuil [ici](https://favourite-ai.streamlit.app)
