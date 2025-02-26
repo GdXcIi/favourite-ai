@@ -21,9 +21,9 @@ st.markdown("""
 # --- Logo ---
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image("Logo.png", width=75, use_container_width=True)
+    st.image("Logo.png", width=50, use_container_width=True)
 
-st.sidebar.image("Logo.png", width=50)
+st.sidebar.image("Logo.png", width=25)
 st.markdown("""
     <link rel="icon" href="logo.png" type="image/x-icon">
 """, unsafe_allow_html=True)
