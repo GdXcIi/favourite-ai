@@ -83,12 +83,12 @@ st.markdown("""
 # --- Google Analytics ---
 st.markdown("""
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H4GPW3HMT9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4GPW3HMT9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-H4GPW3HMT9');
-</script>
+      gtag('config', 'G-H4GPW3HMT9');
+    </script>
 """, unsafe_allow_html=True)
