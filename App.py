@@ -19,8 +19,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Logo ---
-col1, col2, col3 = st.columns([1, 2, 1])
-with col2:
+col1, col2, col3, col4, col5 = st.columns([1, 1, 2, 1, 1])
+with col3:
     st.image("Logo.png", width=50, use_container_width=True)
 
 st.sidebar.image("Logo.png", width=25)
