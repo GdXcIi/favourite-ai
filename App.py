@@ -7,6 +7,17 @@ st.markdown("""
         body {
             background-color: #C7D2D7;
         }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #BBC9D1;
+            color: white;
+            text-align: center;
+            padding: 10px;
+
+        }
         .title {
             text-align: center;
             font-size: 40px;
@@ -88,7 +99,8 @@ elif page == "Autres":
 
 # --- Footer ---
 st.markdown("""
-    <hr>
-    <p style='text-align: center; color: gray;'>&copy; 2025 Guillaume DUPUIS</p>
-    <a href='https://github.com/GdXcIi/favourite-ai'><img class='github' src='IMG_1658.png' alt='Dépôt GitHub'></a>
+    <footer class='footer'>
+        <p>&copy; 2025 Guillaume DUPUIS</p>
+        <a href='https://github.com/GdXcIi/favourite-ai'><img class='github' src='IMG_1658.png' alt='Dépôt GitHub'></a>
+    </footer>
 """, unsafe_allow_html=True)
