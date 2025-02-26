@@ -21,7 +21,7 @@ st.markdown("""
 # --- Logo ---
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image("Logo.png", width=100, use_container_width=True)
+    st.image("Logo.png", width=75, use_container_width=True)
 
 st.sidebar.image("Logo.png", width=50)
 st.markdown("""
