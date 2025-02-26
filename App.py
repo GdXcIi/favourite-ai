@@ -19,7 +19,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Logo ---
-st.image("Logo.png", width=150)
+st.image("Logo.png", width=150, use_column_width=True)
 st.sidebar.image("Logo.png", width=50)
 st.markdown("""
     <link rel="icon" href="logo.png" type="image/x-icon">
@@ -87,5 +87,5 @@ elif page == "Autres":
 st.markdown("""
     <hr>
     <p style='text-align: center; color: gray;'>&copy; 2025 Guillaume DUPUIS</p>
-    <a href='https://github.com/GdXcIi/favourite-ai'><img class='github' src='IMG_1658.png'></a>
+    <a href='https://github.com/GdXcIi/favourite-ai'><img class='github' src='IMG_1658.png' alt='Dépôt GitHub'></a>
 """, unsafe_allow_html=True)
