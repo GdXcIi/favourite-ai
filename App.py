@@ -5,7 +5,7 @@ import pandas as pd
 st.markdown("""
     <style>
         body {
-            background-color: #f4f4f4;
+            background-color: #C7D2D7;
         }
         .title {
             text-align: center;
