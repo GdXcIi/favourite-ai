@@ -19,7 +19,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Logo ---
-st.image("Logo.png", width=150, use_column_width=True)
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.image("Logo.png", width=150, use_column_width=True)
+
 st.sidebar.image("Logo.png", width=50)
 st.markdown("""
     <link rel="icon" href="logo.png" type="image/x-icon">
