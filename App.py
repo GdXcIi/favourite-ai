@@ -16,6 +16,13 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# --- Logo ---
+st.image("Logo.png", width=150)
+st.sidebar.image("Logo.png", width=150)
+st.markdown("""
+    <link rel="icon" href="logo.png" type="image/x-icon">
+""", unsafe_allow_html=True)
+
 # --- Titre ---
 st.markdown("<h1 class='title'>Mes IA préférées...</h1>", unsafe_allow_html=True)
 
