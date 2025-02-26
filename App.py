@@ -14,7 +14,7 @@ st.markdown("""
             font-weight: bold;
         }
         .github {
-             width: 20px;
+             max-width: 20%;
     </style>
 """, unsafe_allow_html=True)
 
@@ -87,5 +87,5 @@ elif page == "Autres":
 st.markdown("""
     <hr>
     <p style='text-align: center; color: gray;'>&copy; 2025 Guillaume DUPUIS</p>
-    <a href='https://github.com/GdXcIi/favourite-ai'><img src='github_logo.png' width></a>
+    <a href='https://github.com/GdXcIi/favourite-ai'><img class='github' src='github_logo.png'></a>
 """, unsafe_allow_html=True)
