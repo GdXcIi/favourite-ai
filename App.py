@@ -85,4 +85,5 @@ elif page == "Autres":
 st.markdown("""
     <hr>
     <p style='text-align: center; color: gray;'>&copy; 2025 Guillaume DUPUIS</p>
+    <a href='https://github.com/GdXcIi/favourite-ai'><img src='github_logo.png'></a>
 """, unsafe_allow_html=True)
