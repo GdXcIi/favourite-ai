@@ -52,16 +52,16 @@ page = st.sidebar.radio("Naviguer par catégories :",
 if page == "Générateurs de texte":
     st.subheader("Générateurs de texte")
     data_texte = {
-        "Nom": ["ChatGPT", "Le Chat", "Deepseek", "Llama", "Qwen", "Gemini", "Apple Intelligence"],
-        "Entreprise": ["OpenAI", "Mistral AI", "-", "Meta", "-", "Google", "Apple"]
+        "Nom": ["ChatGPT", "Copilot" "Le Chat", "Deepseek", "Llama", "Qwen", "Gemini", "Apple Intelligence"],
+        "Entreprise": ["OpenAI", "Microsoft", "Mistral AI", "-", "Meta", "-", "Google", "Apple"]
     }
     st.dataframe(pd.DataFrame(data_texte))
 
 elif page == "Générateurs d'images":
     st.subheader("Générateurs d'images")
     data_images = {
-        "Nom": ["ChatGPT", "Canva", "Pixlr", "Le Chat", "Apple Intelligence"],
-        "Entreprise": ["OpenAI", "-", "-", "Mistral AI", "Apple"]
+        "Nom": ["ChatGPT", "Copilot" "Canva", "Pixlr", "Le Chat", "Apple Intelligence"],
+        "Entreprise": ["OpenAI", "Microsoft", "-", "-", "Mistral AI", "Apple"]
     }
     st.dataframe(pd.DataFrame(data_images))
 
@@ -84,8 +84,8 @@ elif page == "Détecteurs d'IA":
 elif page == "Traducteurs automatiques/autocorrecteurs":
     st.subheader("Traducteurs automatiques/autocorrecteurs")
     data_lang = {
-        "Nom": ["DeepL", "Google Translate", "Microsoft Translator", "Apple Traduction", "Reverso"],
-        "Entreprise": ["DeepL", "Google", "Microsoft", "Apple", "-"]
+        "Nom": ["ChatGPT", "DeepL", "Google Translate", "Microsoft Translator", "Apple Traduction", "Reverso"],
+        "Entreprise": ["OpenAI", "DeepL", "Google", "Microsoft", "Apple", "-"]
     }
     st.dataframe(pd.DataFrame(data_lang))
 
