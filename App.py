@@ -34,7 +34,10 @@ col1, col2, col3, col4, col5 = st.columns([1, 1, 2, 1, 1])
 with col3:
     st.image("Logo.png", use_container_width=True)
 
-st.sidebar.image("Logo.png", width=100)
+col1_navbar, col2_navbar, col3_navbar = st.columns([1, 2, 1])
+with col2_navbar:
+    st.sidebar.image("Logo.png", width=100)
+
 st.markdown("""<link rel="icon" href="Logo.png" type="image/x-icon">""", unsafe_allow_html=True)
 
 # --- Titre ---
